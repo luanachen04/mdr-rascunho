@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(192, 62%, 25%);
+    font-family: 'Popping', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.welcome {
+    position: relative;
+    top: -250px;
+    text-align: left;
+    margin-left: 50px;
+    padding-top: 100px;
+    color: #fff;
+}
+
+.welcome h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.welcome p {
+    font-size: 18px;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    z-index: 100;
+    background: linear-gradient(rgb(55, 52, 52), transparent);
+}
+
+.nav img {
+    width: 150px;
+    height: 100px;
+}
+
+.navbar ul {
+    display: flex;
+    padding: 0;
+}
+
+.navbar ul li {
+    list-style-type: none;
+}
+
+.navbar ul li .link {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 25px;
+}
+
+.navbar ul li .link:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-button .btn {
+    width: 130px;
+    height: 40px;
+    font-size: 15px;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s ease;
+    margin-right: 20px;
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    min-height: 120vh;
+}
+
+.container {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    transition: .3s ease;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+header {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0 30px 0;
+}
+
+.input-button {
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    transition: .3s ease;
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input-button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.input-button span {
+    flex: auto;
+    margin-left: 10px;
+}
+
+.input-button i {
+    margin-right: 50px;
+}
